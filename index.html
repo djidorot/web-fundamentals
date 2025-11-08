@@ -1,0 +1,13 @@
+<div id="example">
+    <p>Hello <b>World</b></p>
+</div>
+
+<script>
+    const el = document.getElementById("example");
+
+    console.log(el.innerText);  // "Hello World"
+    console.log(el.innerHTML);  // "<p>Hello <b>World</b></p>"
+
+    el.innerText = "Changed text!";
+
+</script>
